@@ -16,37 +16,37 @@ public class Dog {
     private String name;
 
     public void setAsDogOfTheWeek() {
-	dogOfTheWeek = this;
+        dogOfTheWeek = this;
     }
 
     public static Dog getDogOfTheWeek() {
-	return dogOfTheWeek;
+        return dogOfTheWeek;
     }
 
     public Dog(String name) { this.name = name;}
 
     public static void main(String [] args) {
 
-	Dog d1 = new Dog("Fido");
-	Dog d2 = new Dog("Rover");
-	Dog d3 = new Dog("Princess");
-	Dog d4 = new Dog("Spot");
-	Dog d5 = new Dog("Snoopy");
+        Dog d1 = new Dog("Fido");
+        Dog d2 = new Dog("Rover");
+        Dog d3 = new Dog("Princess");
+        Dog d4 = new Dog("Spot");
+        Dog d5 = new Dog("Snoopy");
 
-	d1.setAsDogOfTheWeek();    
-	d1 = d2;                   
-	Dog d6 = d3;               
-	Dog temp = d4;             
-	d4 = d3;                   
-	d3 = temp;                 
-	d2 = getDogOfTheWeek();    
-	d4.setAsDogOfTheWeek();    
-	d5 = null;                 
-	d4 = null;                 
-	d3 = null;                 
-	d2 = null;                 
-	d1 = null;                 
-	temp = null;               
+        d1.setAsDogOfTheWeek();    
+        d1 = d2;                   
+        Dog d6 = d3;               
+        Dog temp = d4;             
+        d4 = d3;                                      
+        d3 = temp;                 
+        d2 = getDogOfTheWeek();    
+        d4.setAsDogOfTheWeek();    
+        d5 = null;                 
+        d4 = null;                 
+        d3 = null;                 
+        d2 = null;                 
+        d1 = null;                 
+        temp = null;               
     }                              
 }
 {% endhighlight %}
