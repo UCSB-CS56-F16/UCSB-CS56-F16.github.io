@@ -94,10 +94,10 @@ Note: Line numbers are not part of the code. They are only there for reference.
 8
 9	public Book(String author, String title, int price,
 10	double weight) {
-11	this.author = author;
-12	this.title = title;
-13	this.price = price;
-14	this.weight = weight;
+11	  this.author = author;
+12	  this.title = title;
+13	  this.price = price;
+14	  this.weight = weight;
 15	}
 16
 17	public int getPrice() {return this.price;}
@@ -119,13 +119,13 @@ Note: Line numbers are not part of the code. They are only there for reference.
 6	private String title;
 7
 8	public Song(String artist, String title, int price) {
-9	this.artist = artist;
-10	this.title = title;
-11	this.price = price;
+9	  this.artist = artist;
+10	  this.title = title;
+11	  this.price = price;
 12	}
 13
 14	public Song(String artist, String title) {
-15	this(artist,title,99);
+15	  this(artist,title,99);
 16	}
 17
 18	public int getPrice() {return this.price;}
